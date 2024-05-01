@@ -1,0 +1,93 @@
+.primary-navbar {
+    position: sticky;
+    top: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.primary-navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-navbar nav ul li {
+    margin: 0 10px;
+}
+
+.primary-navbar nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 25px;
+}
+
+.primary-navbar nav ul li a:hover {
+    background-color: #eee;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+.browser{
+    margin: 2px;
+    
+}
+
+.title-1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.built-to-be {
+    margin-right: 10px; 
+}
+
+.Button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Button-div button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 10%;
+    height: 40px;
+    font-size: large;
+}
+
+.title strong {
+    animation: fadeInUp 0.5s ease; 
+    color: orange; 
+    font-weight: bold; 
+}
+
+
+@keyframes moveUpAndFadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px); 
+    }
+  }
+
+  .moveUpAndFadeOut {
+    animation: moveUpAndFadeOut 1s forwards;
+  }
+  
